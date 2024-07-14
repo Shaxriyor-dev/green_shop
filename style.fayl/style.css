@@ -925,6 +925,11 @@ section {
     display: flex;
     justify-content: center;
 }
+.mano-short{
+    font-size: 18px;
+    color: #3D3D3D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
