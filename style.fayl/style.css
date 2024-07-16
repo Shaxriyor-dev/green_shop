@@ -482,7 +482,8 @@ section {
     background-repeat: no-repeat;
     background: url(/Imgs/01\ 3\ \(2\).png);
 }
-.img-blaosk{
+
+.img-blaosk {
     width: 259px;
     height: 265px;
     display: flex;
@@ -948,6 +949,14 @@ section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.oooo {
+    height: 2px;
+    width: 100%;
+    display: none;
+    background: #d8d7d7;
+}
+
+
 
 
 
@@ -990,6 +999,66 @@ section {
     .text-r {
         font-size: 14px;
         width: 320px;
+    }
+
+    .Content-icon {
+        display: none;
+    }
+
+    .hero-wert {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bars-blog {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section {
+        height: 100%;
+    }
+
+    .Faster {
+        height: 100%;
+    }
+
+    .faster-item {
+        display: none;
+    }
+
+    .header {
+        display: none;
+        justify-content: center;
+    }
+
+    .oooo {
+        display: block;
+    }
+
+    .finished {
+        gap: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aserty {
+        display: none;
+    }
+
+    .bars-y {
+        Width: 255px;
+        Height: 340px;
     }
 
 }
@@ -1088,4 +1157,36 @@ section {
         background: #F8F8F8;
         border-radius: 20px;
     }
+     .bars-icons{
+        gap: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .bars-imgs{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+     }
+     .burchak{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .text-k{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+     }
+      .text-q{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+      .section{
+        margin-top: 40px;
+      }
+      .main{
+        gap: 40px;
+      }
 }
