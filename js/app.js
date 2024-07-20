@@ -6,10 +6,6 @@ const Mic = document.querySelector('.Mic');
 const nol = document.querySelector('.value');
 const Mix = document.querySelector('.Mix');
 
-let a = '1';
-Mix.addEventListener('click', ()=>{
-    
-})
 
 
 

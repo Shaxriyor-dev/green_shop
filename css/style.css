@@ -1066,11 +1066,20 @@ section {
     header {
         display: none;
     }
-
-    .mySwiper {
-        gap: 0px;
-        width: 500px;
-        height: 300px;
+    .hero-s{
+        height: 250px;
+    }
+    .bars-y{
+        height: 290px;
+    }
+    .bars-y:hover{
+        box-shadow: #ffffff;
+    }
+    main{
+        display: none;
+    }
+    .Faster{
+        display: none;
     }
 
     .eron {
@@ -1115,16 +1124,13 @@ section {
         font-size: 12px;
     }
 
-    .swiper-slide {
-        width: 100%;
-    }
-
     .container {
-        display: block;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 68px;
-        padding: 20px;
-        border-radius: 20px;
+        display: block;
+        position: fixed;
+        padding: 0px 20px;
     }
 
     .serch {
@@ -1188,4 +1194,25 @@ section {
       .main{
         gap: 40px;
       }
+      .fromd{
+        display: flex;
+        justify-content: end;
+      }
+      .All-Plants{
+        font-size: 14px;
+      }
+      .New{
+        font-size: 14px;
+      }
+      .sele{
+        font-size: 14px;
+      }
+      .text-img{
+        font-size: 16px;
+      }
+      .span-y{
+        font-size: 14px;
+      }
+      
+
 }
