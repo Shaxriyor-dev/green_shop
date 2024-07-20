@@ -1388,6 +1388,17 @@ swiper-slide:hover {
 .Informations{
     height: 100vh;
 }
+.doller{
+    font-size: 25px;
+    font-weight: 700;
+    color: #46A358;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.dip{
+    gap: 5px;
+    display: flex;
+     align-items: center;
+}
 
 
 
