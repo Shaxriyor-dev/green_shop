@@ -1,6 +1,8 @@
 const barss = document.querySelector('.bars-y');
 const exits = document.querySelector('.exits');
 
+
+
 // Nomber
 const Mic = document.querySelector('.Mic');
 const nol = document.querySelector('.value');
@@ -49,23 +51,37 @@ Mic.addEventListener('click', ()=>{
 })
 
 
-
-
-
-
-
 // Shop / rasm
-const heroMainImg = document.querySelector(".img-type img");
-const asideImgs = document.querySelectorAll(".hero-id img");
-
-asideImgs.forEach((item) => {
+const id = document.querySelector(".img-id");
+const hero = document.querySelector(".img-type img");
+const aside = document.querySelectorAll(".hero-id img");
+aside.forEach((item) => {
   item.addEventListener("click", (e) => {
-    const firstAtt = heroMainImg.getAttribute("src");
+    const firstAtt = hero.getAttribute("src");
     const secondAtt = item.getAttribute("src");
-    heroMainImg.setAttribute("src", secondAtt);
+    hero.setAttribute("src", secondAtt);
     item.setAttribute("src", firstAtt);
-    item.style.Height = "404px"
   });
 });
 
 
+// cart-sespansiv
+const cartshowul = document.querySelector('.cart-show-ul');
+const showcart1 = document.querySelector('.btn-rrr');
+const tugmacha = document.getElementById('a-tugmacha')
+
+showcart1.addEventListener('click' , ()=>{
+  cartshowul.classList.toggle('active')
+})
+
+
+
+
+
+
+// Yangi narsa
+const valueimg = document.querySelector('.hero-s');
+
+valueimg.addEventListener('click' , ()=>{
+ console.log('Salom')
+})

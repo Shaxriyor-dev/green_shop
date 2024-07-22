@@ -885,11 +885,13 @@ section {
 }
 
 .size-d {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     display: flex;
     border-radius: 50%;
     align-items: center;
+    font-weight: 700;
+    color: #727272;
     justify-content: center;
     border: solid 1px #c0bcbc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -921,7 +923,7 @@ section {
 }
 
 .sert {
-    width: 40px;
+    width: 43px;
     height: 43px;
     display: flex;
     border-radius: 50%;

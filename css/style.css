@@ -955,11 +955,36 @@ section {
     display: none;
     background: #d8d7d7;
 }
-
-
-
-
-
+.cart-show-ul{
+    position: fixed;
+    width: 100%;
+    height: 550px;
+    background: 
+    #3D3D3D;
+    display: none;
+    transform: translateY(-600px);
+}
+.nav-ul{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.nav-li{
+    gap: 10px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+}
+.nav-a{
+    color: #fff;
+}
+.iconss{
+    color: #fff;
+    font-size: 25px;
+}
+.active{
+    transform: translateY(0px);
+}
 
 
 
@@ -1147,7 +1172,7 @@ section {
         background: #F8F8F8;
     }
 
-    .btn-r {
+    .btn-rrr {
         padding: 20px 19px;
         background: #37c253;
         border-radius: 20px;
@@ -1212,6 +1237,10 @@ section {
       }
       .span-y{
         font-size: 14px;
+      }
+      .cart-show-ul{
+        display: block;
+       
       }
       
 
